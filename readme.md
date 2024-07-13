@@ -27,9 +27,9 @@ books available to lend.
 
 
 15. If a functionality isn’t working, the program should show a proper error message. For example:
-    a. The book price should be a floating number
-    b. This book isn’t available to remove.
-    c. etc…
+    1. The book price should be a floating number
+    2. This book isn’t available to remove.
+    3. etc…
 
 
 ## NOTES When it is lent to someone, the quantity of books should be decreased.
