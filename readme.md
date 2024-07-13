@@ -27,12 +27,22 @@ books available to lend.
 
 
 15. If a functionality isn’t working, the program should show a proper error message. For example:
-    - a. The book price should be a floating number
-    - b. This book isn’t available to remove.
-    - c. etc…
+    a. The book price should be a floating number
+    b. This book isn’t available to remove.
+    c. etc…
 
 
-## NOTES
+## NOTES When it is lent to someone, the quantity of books should be decreased.
+
+If no books are available to lend, an error message should be printed saying not enough books available to lend.
+
+View all the books that were lent and who lent the book.
+
+Books can be returned. The quantity should be updated accordingly.
+
+Save the book state(added books, lent books, etc.) to a file(any file you wish).
+
+When a book is added or removed, it should be automatically saved into a file.
 1. The project must contain multiple files for multiple features.
 2. You must add a simple architecture for the application using any tool you prefer. You can
 also draw in hand and put that image into the project folder. Better, if you can show your
