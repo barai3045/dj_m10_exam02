@@ -1,8 +1,8 @@
-OVERVIEW
+## OVERVIEW
 In this assignment, you’re gonna have to develop a CLI project with Python for a Library Management System. You’ll have to use the concepts of Python you’ve already learned throughout the course. You won’t have to use any GUI or any Framework or such. Simply run the application and show your output in the terminal. Don’t use AI. It’ll be harmful to your career
 
 
-TASKS
+## TASKS
 1. Books can be added to the system. Use at least the title, author(s), ISBN, publishing year,
 price, and quantity. You can use any extra fields you find necessary.
 2. The system should be able to take multiple authors for a single book.
@@ -33,7 +33,7 @@ b. This book isn’t available to remove.
 c. etc…
 
 
-NOTES
+## NOTES
 1. The project must contain multiple files for multiple features.
 2. You must add a simple architecture for the application using any tool you prefer. You can
 also draw in hand and put that image into the project folder. Better, if you can show your
