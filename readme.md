@@ -26,11 +26,10 @@ books available to lend.
 14. All the information should be available from the saved file when the program starts.
 
 
-15. If a functionality isn’t working, the program should show a proper error message. For
-example:
-a. The book price should be a floating number
-b. This book isn’t available to remove.
-c. etc…
+15. If a functionality isn’t working, the program should show a proper error message. For example:
+    - a. The book price should be a floating number
+    - b. This book isn’t available to remove.
+    - c. etc…
 
 
 ## NOTES
