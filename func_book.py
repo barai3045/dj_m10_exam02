@@ -6,12 +6,8 @@ def add_book(books):
     print("Enter Book detail:")
     title = input("Title: ")
 
-    while True:
-        authors = input("Enter authors (Use semicolon (;) for multi author ")
-        if ',' in authors:
-            print("You cannot use a comma in the authors field. use semicolon (;). Please try again.")
-        else:
-            break
+    authors = input("Author(s) (for multiple author use ';' semiclone): ").split(';')
+
     isbn = input("ISBN: ")
     year = input("Publishing year: ")
     price = float(input("Price: "))
