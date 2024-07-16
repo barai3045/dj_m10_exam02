@@ -1,5 +1,6 @@
 from book_class import Book
-from func_book import add_book, view_books, delete_book
+from func_lend import books_return, lend_books, view_books_lend
+from func_book import add_book, view_books, delete_book, update_book
 from func_file_operation import restore_books, restore_books_lend
 from func_search import search_by_title_isbn, search_by_authors
 
@@ -40,15 +41,15 @@ def main():
         elif choice == "4":
             search_by_authors(books)
         elif choice == "5":
-            pass
+            books = update_book(books)
         elif choice == "6":
             books = delete_book(books, books_lend)
         elif choice == "7":
-            pass
+            books_lend= lend_books(books, books_lend)
         elif choice == "8":
-            pass
+            view_books_lend(books_lend)
         elif choice == "9":
-            pass
+            books_lend = books_return(books, books_lend)
         elif choice == "0":
             print('Thank You for Using!')
             break
